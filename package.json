@@ -1,0 +1,21 @@
+{ "name": "we2380-axis-by-density",
+  "version": "0.0.1",
+  "description": "Auxiliary files for WorldEdit feature request #2380",
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/we2380-axis-by-density/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/we2380-axis-by-density.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/we2380-axis-by-density/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "CC-0",
+
+
+
+  "engines": { "minecraft": "1.20.1" }
+}
