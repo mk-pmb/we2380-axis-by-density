@@ -1,0 +1,93 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+
+/gamemode spectator
+/teleport @s 0 10 48 facing 0 40 0
+//pos1 -50,-50,-50
+//pos2 50,50,50
+//set sea_lantern
+//inset 1
+//set air
+//distr
+//# delay=45s
+//contract 49 d
+//set water
+//distr
+//# delay=20s
+
+//pos1 30,30,30
+//pos2 30,30,20
+//set glowstone
+//contract 1 n,s
+//set glass
+//expand 1 n
+//stack -s 5 n
+//expand 51 s
+
+//stack 10 w
+//shift 1 w
+//expand 8 w
+//replace glass air
+//replace glowstone glass
+//expand 1 w
+//stack -s 5 w
+//expand 51 e
+//# delay=10s
+
+//stack 10 d
+//shift 1 d
+//expand 8 d
+//replace glass air
+//replace glowstone glass
+//expand 1 d
+//stack -m !air -s 5 d
+/;
+
+//# delay=10s
+/teleport @s -10 40 40 facing 5 -20 0
+# Screenshot "wireframe"
+
+//# delay=5s
+
+/setblock -28 0 -33 oak_log[axis=x]
+/setblock -26 0 -33 oak_log[axis=y]
+/setblock -24 0 -33 oak_log[axis=z]
+/setblock -28 1 -33 chain[axis=x]
+/setblock -26 1 -33 chain[axis=y]
+/setblock -24 1 -33 chain[axis=z]
+
+/teleport @s -26 4 -25 facing -27 0 -30
+# Screenshot "corner"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# np2
